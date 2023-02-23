@@ -1,0 +1,8 @@
+setup:
+build:
+  docker:
+    frontend: ./front-end
+    backend: ./back-end
+run:
+  web: /bin/sh -c "cd /app && node server.js"
+  worker: /bin/sh -c "cd /app && npm start"

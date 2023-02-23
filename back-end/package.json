@@ -1,0 +1,16 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "POC for making CTF games in browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ryan Marinelli",
+  "license": "ISC",
+  "dependencies": {
+    "node-pty": "^0.10.1",
+    "ws": "^8.12.1"
+  }
+}
