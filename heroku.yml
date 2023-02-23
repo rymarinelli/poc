@@ -1,8 +1,17 @@
-setup:
 build:
   docker:
-    frontend: ./front-end
-    backend: ./back-end
+    frontend:
+      context: ./front-end
+      dockerfile: Dockerfile
+    backend:
+      context: ./back-end
+      dockerfile: Dockerfile
 run:
-  web: /bin/sh -c "cd /app && node server.js"
-  worker: /bin/sh -c "cd /app && npm start"
+  frontend:
+    command: npm start
+    env:
+      NODE_ENV: production
+  backend:
+    command: npm start
+    env:
+      NODE_ENV: production
