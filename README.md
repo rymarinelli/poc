@@ -15,6 +15,6 @@ docker compose build
 docker compose up
 ```
 
-The application will be running on port 80:80. The plan is to deploy on heroku. 
+The application will be running on port 80:80. The plan is to deploy on heroku in the future.
 
 
