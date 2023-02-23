@@ -17,4 +17,6 @@ docker compose up
 
 The application will be running on port 80:80. The plan is to deploy on heroku in the future.
 
+<h3> Example of Tutorial </h3>
 
+![Example of Tutorial](https://github.com/rymarinelli/poc/blob/main/img/Example.png?raw=true)
