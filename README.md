@@ -1,4 +1,4 @@
-<h3>POC</h3>
+<h3>Proof of Concept</h3>
 The goal of this proof-of-concenpt is to create virtual environments to instruct learners. This example in particular is about bashing.
 But, the goal is to create tutorials in general 
 
