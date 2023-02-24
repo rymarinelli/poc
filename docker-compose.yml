@@ -1,17 +1,11 @@
-build:
-  docker:
-    frontend:
-      context: ./front-end
-      dockerfile: Dockerfile
-    backend:
-      context: ./back-end
-      dockerfile: Dockerfile
-run:
+version: '3'
+
+services:
   frontend:
-    command: npm start
-    env:
-      NODE_ENV: production
+    build: ./front-end
+    ports:
+      - 80:80
   backend:
-    command: npm start
-    env:
-      NODE_ENV: production
+    build: ./back-end
+    ports:
+      - 3000:3000
