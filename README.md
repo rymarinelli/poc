@@ -1,5 +1,5 @@
 <h3>Proof of Concept</h3>
-The goal of this proof-of-concenpt is to create virtual environments to instruct learners. This example in particular is about bashing.
+The goal of this proof-of-concenpt is to create virtual environments to instruct learners. This example in particular is about hashing.
 But, the goal is to create tutorials in general 
 
 <h3> Building </h3> 
